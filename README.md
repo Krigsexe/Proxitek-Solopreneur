@@ -63,18 +63,34 @@ Plutôt que de leur imposer une énième plateforme complexe, **Proxitek-Solopre
 ## 📂 Structure du dépôt
 
 Proxitek-Solopreneur/
-├── README.md
-├── LICENSE
-├── docs/
-│ ├── vision.md
-│ ├── fonctionnement.md
-│ ├── roadmap.md
-│ └── schema-loadchart.png
-├── backend/
-│ ├── main.py
-│ └── models/
-├── frontend/ (optionnel)
-└── assets/
+├── README.md                ← Présentation du projet
+├── LICENSE                  ← Licence open-source (MIT par défaut)
+├── .gitignore               ← Fichier d’exclusion (node_modules, venv, etc.)
+│
+├── docs/                    ← Documentation détaillée
+│   ├── vision.md            ← Philosophie et objectif
+│   ├── fonctionnement.md    ← Vue utilisateur + schémas
+│   ├── roadmap.md           ← Évolutions prévues
+│   ├── faq.md               ← Questions fréquentes
+│   └── schema-loadchart.png← Schéma de fonctionnement (généré par IA)
+│
+├── backend/                 ← Scripts serveurs & IA
+│   ├── main.py              ← API FastAPI ou Flask
+│   ├── models/              ← Détection image + génération texte
+│   └── utils/               ← Fonctions auxiliaires (formatage, upload, etc.)
+│
+├── frontend/                ← (optionnel) Interface web simple si besoin
+│   └── ...                  ← Ex: interface admin pour valider les posts
+│
+├── assets/                  ← Logos, visuels, templates de posts
+│   └── social-preview.png   ← Miniature de partage réseaux sociaux
+│
+└── .github/                 ← Fichiers GitHub (issues, workflows, etc.)
+    ├── ISSUE_TEMPLATE/
+    │   ├── bug_report.md
+    │   └── feature_request.md
+    └── workflows/
+        └── ci.yml           ← Intégration continue ou linter plus tard
 
 
 ---
