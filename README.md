@@ -1,4 +1,4 @@
-# 💼 Proxitek-Solopreneur
+# 💼 Proxitek-SoloFlow
 
 > Simplifiez votre présence en ligne. Automatisez vos publications. Gagnez du temps.
 
@@ -6,7 +6,7 @@ Le solopreneur crée et pilote son activité seul(e), sans salarié ni associé.
 
 ## 🎯 Objectif
 
-**Proxitek-Solopreneur** est un projet open-source conçu pour les **indépendants**, **artisans**, **freelances** ou **petites structures** souhaitant booster leur **visibilité en ligne** sans y consacrer des heures.
+**Proxitek-SoloFlow** est un projet open-source conçu pour les **indépendants**, **artisans**, **freelances** ou **petites structures** souhaitant booster leur **visibilité en ligne** sans y consacrer des heures.
 
 L’idée :
 📸 Capturez un instant de votre travail
